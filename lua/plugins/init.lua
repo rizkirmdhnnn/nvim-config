@@ -17,16 +17,22 @@ return {
 
   {
     "williamboman/mason.nvim",
-    config = function()
-      require "configs.mason"
+    opts = function()
+      return require "configs.mason"
     end,
   },
 
   {
     "nvim-treesitter/nvim-treesitter",
-    config = function()
-      require "configs.treesitter"
+    opts = function()
+      return require "configs.treesitter"
     end,
+  },
+  {
+    "VidocqH/lsp-lens.nvim",
+    opts = {
+      enable = true,
+    },
   },
 
   {

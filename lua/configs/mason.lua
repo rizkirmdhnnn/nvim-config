@@ -15,4 +15,4 @@ local opts = {
   },
 }
 
-require("mason").setup(opts)
+return opts
