@@ -8,6 +8,7 @@ local opts = {
     "gopls",
     "intelephense",
     "php-debug-adapter",
+    "typescript-language-server",
   },
   ui = {
     border = "rounded",

@@ -1,6 +1,3 @@
--- This file  needs to have same structure as nvconfig.lua
--- https://github.com/NvChad/NvChad/blob/v2.5/lua/nvconfig.lua
-
 ---@type ChadrcConfig
 local M = {}
 local headers = require "configs.headers"
@@ -29,7 +26,7 @@ M.ui = {
     ["@comment"] = { italic = true },
   },
   statusline = {
-    theme = "default",
+    theme = "minimal",
     separator_style = "round",
   },
   tabufline = {
