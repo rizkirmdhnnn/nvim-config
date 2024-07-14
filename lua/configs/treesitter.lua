@@ -12,6 +12,12 @@ local opts = {
     "javascript",
     "yaml",
     "json",
+    "gomod",
+    "gosum",
+    "gotmpl",
+  },
+  highlight = {
+    enable = true,
   },
 }
 
