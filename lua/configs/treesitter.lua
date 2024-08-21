@@ -15,6 +15,8 @@ local opts = {
     "gomod",
     "gosum",
     "gotmpl",
+    "regex",
+    "bash",
   },
   highlight = {
     enable = true,
