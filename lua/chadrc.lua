@@ -16,14 +16,17 @@ local function get_header()
   end
 end
 
-M.ui = {
-  lsp = {
-    signature = false,
-  },
+M.base46 = {
   theme = "everforest",
   hl_override = {
     Comment = { italic = true },
     ["@comment"] = { italic = true },
+  },
+}
+
+M.ui = {
+  lsp = {
+    signature = false,
   },
   statusline = {
     theme = "minimal",
